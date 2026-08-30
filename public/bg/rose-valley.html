@@ -11,13 +11,33 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body data-page="rose-valley">
-  <header class="site-header"></header>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo" aria-hidden="true">БГ</div>
+      <div>
+        <h1>Розовата долина</h1>
+        <p class="tagline">Факти за България</p>
+      </div>
+    </div>
+  </header>
   <div class="layout">
-    <nav class="menu" aria-label="Теми"></nav>
-    <main class="main"></main>
+    <nav class="menu" aria-label="Теми">
+      <h2>Теми</h2>
+      <ul><li><a href="history.html">История</a></li><li><a href="geography.html">География</a></li><li><a href="culture.html">Култура и традиции</a></li><li><a href="cuisine.html">Кухня</a></li><li><a href="rose-valley.html" aria-current="page">Розовата долина</a></li><li><a href="language.html">Език и кирилица</a></li><li><a href="music.html">Музика и фолклор</a></li><li><a href="unesco.html">Обекти на ЮНЕСКО</a></li><li><a href="nature.html">Природа и дива природа</a></li><li><a href="sports.html">Спорт</a></li><li><a href="famous-bulgarians.html">Известни българи</a></li><li><a href="cities.html">Градове</a></li></ul>
+    </nav>
+    <main class="main">
+      <h2 class="page-title">Розовата долина</h2>
+      <p class="page-lead">България произвежда голяма част от световното розово масло.</p>
+      <div class="cards">
+        <article class="card"><h3>Казанлък и Карлово</h3><p>Долината между Стара планина и Средна гора отглежда Rosa damascena от XVII век.</p></article>
+        <article class="card"><h3>Течно злато</h3><p>Нужни са около 3000 кг розов цвят за един килограм розово масло, което грам за грам струва повече от златото.</p></article>
+        <article class="card"><h3>Бране на ръка призори</h3><p>Цветът се бере между 5 и 10 сутринта, преди слънцето да изпари етеричните масла.</p></article>
+        <article class="card"><h3>Празникът на розата</h3><p>Всеки юни Казанлък избира Царица Роза и празнува реколтата с шествия, хора и ритуали по розобер.</p></article>
+      </div>
+    </main>
   </div>
-  <footer class="site-footer"></footer>
-  <script src="data.js"></script>
-  <script src="app.js"></script>
+  <footer class="site-footer">
+    <p>© 2026 | OneDev | All Rights Reserved</p>
+  </footer>
 </body>
 </html>

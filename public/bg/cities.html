@@ -11,13 +11,33 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body data-page="cities">
-  <header class="site-header"></header>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo" aria-hidden="true">БГ</div>
+      <div>
+        <h1>Градове</h1>
+        <p class="tagline">Факти за България</p>
+      </div>
+    </div>
+  </header>
   <div class="layout">
-    <nav class="menu" aria-label="Теми"></nav>
-    <main class="main"></main>
+    <nav class="menu" aria-label="Теми">
+      <h2>Теми</h2>
+      <ul><li><a href="history.html">История</a></li><li><a href="geography.html">География</a></li><li><a href="culture.html">Култура и традиции</a></li><li><a href="cuisine.html">Кухня</a></li><li><a href="rose-valley.html">Розовата долина</a></li><li><a href="language.html">Език и кирилица</a></li><li><a href="music.html">Музика и фолклор</a></li><li><a href="unesco.html">Обекти на ЮНЕСКО</a></li><li><a href="nature.html">Природа и дива природа</a></li><li><a href="sports.html">Спорт</a></li><li><a href="famous-bulgarians.html">Известни българи</a></li><li><a href="cities.html" aria-current="page">Градове</a></li></ul>
+    </nav>
+    <main class="main">
+      <h2 class="page-title">Градове</h2>
+      <p class="page-lead">От 8000-годишен град до столица в подножието на планина.</p>
+      <div class="cards">
+        <article class="card"><h3>София</h3><p>Столицата израства около минералните извори в подножието на Витоша, а девизът ѝ е „Расте, но не старее“.</p></article>
+        <article class="card"><h3>Пловдив</h3><p>Един от най-старите непрекъснато обитавани градове в Европа, с античен театър, в който още има концерти. Европейска столица на културата през 2019 г.</p></article>
+        <article class="card"><h3>Велико Търново</h3><p>Средновековната столица, разположена на три хълма над река Янтра около крепостта Царевец.</p></article>
+        <article class="card"><h3>Варна и Бургас</h3><p>Морските столици — във Варна се пази най-старото обработено злато в света, датирано около 4500 г. пр.н.е.</p></article>
+      </div>
+    </main>
   </div>
-  <footer class="site-footer"></footer>
-  <script src="data.js"></script>
-  <script src="app.js"></script>
+  <footer class="site-footer">
+    <p>© 2026 | OneDev | All Rights Reserved</p>
+  </footer>
 </body>
 </html>
