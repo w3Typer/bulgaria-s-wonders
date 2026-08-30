@@ -35,7 +35,6 @@ body {
 .site-header {
   background: linear-gradient(135deg, var(--rose-deep), var(--rose));
   color: var(--paper);
-  border-bottom: 6px solid var(--green);
   position: relative;
 }
 
