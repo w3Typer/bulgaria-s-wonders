@@ -1,141 +1,141 @@
-/* Shared content + page chrome for the Bulgaria facts site (vanilla JS) */
+/* Общо съдържание за сайта с факти за България (vanilla JS) */
 var TOPICS = [
   {
     slug: "history",
-    name: "History",
-    lead: "Founded in 681 AD, Bulgaria is one of the oldest states in Europe.",
+    name: "История",
+    lead: "Основана през 681 г., България е една от най-старите държави в Европа.",
     cards: [
-      ["Founded in 681 AD", "Khan Asparuh signed a treaty with Byzantium that recognised the Bulgarian state south of the Danube — the country has kept the same name ever since, making it the oldest country in Europe that never changed its name."],
-      ["Two medieval empires", "The First Bulgarian Empire (681–1018) and the Second (1185–1396) stretched at times from the Adriatic to the Black Sea and were major cultural powers of the Balkans."],
-      ["Five centuries under Ottoman rule", "From 1396 to 1878 Bulgaria was part of the Ottoman Empire. Liberation came after the Russo-Turkish War, and 3 March is celebrated as National Liberation Day."],
-      ["Modern Bulgaria", "A republic since 1946, Bulgaria left communism behind in 1989, joined NATO in 2004 and the European Union in 2007."]
+      ["Основана през 681 г.", "Хан Аспарух сключва договор с Византия, с който българската държава на юг от Дунав е призната. Оттогава страната носи същото име и е единствената в Европа, която никога не го е променяла."],
+      ["Две средновековни царства", "Първото българско царство (681–1018) и Второто (1185–1396) на моменти се простират от Адриатическо до Черно море и са водещи културни сили на Балканите."],
+      ["Пет века под османска власт", "От 1396 до 1878 г. България е част от Османската империя. Освобождението идва след Руско-турската война, а 3 март се чества като Ден на Освобождението."],
+      ["Съвременна България", "Република от 1946 г., България излиза от комунизма през 1989 г., присъединява се към НАТО през 2004 г. и към Европейския съюз през 2007 г."]
     ]
   },
   {
     slug: "geography",
-    name: "Geography",
-    lead: "Mountains, plains, a great river and 378 km of Black Sea coastline.",
+    name: "География",
+    lead: "Планини, равнини, голяма река и 378 км черноморска брегова ивица.",
     cards: [
-      ["Where it is", "Bulgaria sits in southeastern Europe on the Balkan Peninsula, bordering Romania, Serbia, North Macedonia, Greece, Türkiye and the Black Sea."],
-      ["Musala, the Balkan roof", "At 2,925 m, Musala peak in the Rila Mountains is the highest point in the whole Balkan Peninsula."],
-      ["The Danube border", "The Danube forms most of the northern border. The Iskar is the longest river running entirely inside the country."],
-      ["Seven mountain ranges", "The Balkan Range (Stara Planina) crosses the country from west to east and gave its name to the entire peninsula."]
+      ["Къде се намира", "България е в Югоизточна Европа, на Балканския полуостров, и граничи с Румъния, Сърбия, Северна Македония, Гърция, Турция и Черно море."],
+      ["Мусала — покривът на Балканите", "С височина 2925 м връх Мусала в Рила е най-високата точка на целия Балкански полуостров."],
+      ["Дунавската граница", "Дунав оформя по-голямата част от северната граница. Искър е най-дългата река, която тече изцяло в страната."],
+      ["Седем планински масива", "Стара планина пресича страната от запад на изток и дава името на целия полуостров."]
     ]
   },
   {
     slug: "culture",
-    name: "Culture & Traditions",
-    lead: "Martenitsa, nestinarstvo and a nod that means 'no'.",
+    name: "Култура и традиции",
+    lead: "Мартеници, нестинарство и кимане, което означава „не“.",
     cards: [
-      ["Nodding means no", "Bulgarians traditionally shake their head for 'yes' and nod for 'no' — one of the most famous cultural surprises for visitors."],
-      ["Martenitsa on 1 March", "People exchange red-and-white yarn tokens called martenitsi to welcome spring, wearing them until they see a stork or a blossoming tree."],
-      ["Nestinarstvo", "Barefoot fire dancing on live embers, inscribed on the UNESCO list of Intangible Cultural Heritage."],
-      ["Kukeri", "In winter, masked dancers in enormous bells and fur costumes parade through villages to chase away evil spirits."]
+      ["Кимането значи „не“", "Българите традиционно клатят глава за „да“ и кимат за „не“ — една от най-известните културни изненади за гостите."],
+      ["Мартеница на 1 март", "Хората си разменят бяло-червени мартеници, за да посрещнат пролетта, и ги носят, докато видят щъркел или цъфнало дърво."],
+      ["Нестинарство", "Боси танци върху жарава, вписани в списъка на ЮНЕСКО за нематериално културно наследство."],
+      ["Кукери", "През зимата маскирани танцьори с огромни звънци и кожуси обикалят селата, за да прогонят злите сили."]
     ]
   },
   {
     slug: "cuisine",
-    name: "Cuisine",
-    lead: "Yogurt, banitsa, shopska salad and a serious love of herbs.",
+    name: "Кухня",
+    lead: "Кисело мляко, баница, шопска салата и истинска любов към подправките.",
     cards: [
-      ["Bulgarian yogurt", "Lactobacillus bulgaricus, the bacterium behind real Bulgarian yogurt, is named after the country and thrives naturally in its air and milk."],
-      ["Shopska salad", "Tomatoes, cucumbers, peppers, onion and grated white brine cheese — the colours of the national flag on a plate."],
-      ["Banitsa", "Flaky filo pastry layered with cheese and eggs, baked for breakfast, holidays and New Year's Eve fortune-telling."],
-      ["Rakia and lyutenitsa", "Fruit brandy served with salad, and a slow-cooked pepper-and-tomato relish that most families still make at home each autumn."]
+      ["Българско кисело мляко", "Lactobacillus bulgaricus — бактерията зад истинското българско кисело мляко — носи името на страната и се среща естествено само тук."],
+      ["Шопска салата", "Домати, краставици, чушки, лук и настъргано сирене — цветовете на националното знаме в чиния."],
+      ["Баница", "Точени кори с яйца и сирене, печени за закуска, за празници и за новогодишни късмети."],
+      ["Ракия и лютеница", "Плодова ракия със салата и бавно готвена лютеница от чушки и домати, която много семейства още правят вкъщи всяка есен."]
     ]
   },
   {
     slug: "rose-valley",
-    name: "The Rose Valley",
-    lead: "Bulgaria supplies a large share of the world's rose oil.",
+    name: "Розовата долина",
+    lead: "България произвежда голяма част от световното розово масло.",
     cards: [
-      ["Kazanlak and Karlovo", "The valley between the Balkan Range and Sredna Gora has grown Rosa damascena since the 17th century."],
-      ["Liquid gold", "It takes roughly 3,000 kg of rose petals to distil a single kilogram of rose oil, which is worth more per gram than gold."],
-      ["Hand-picked at dawn", "Petals are gathered between 5 and 10 in the morning, before the sun evaporates the essential oils."],
-      ["The Rose Festival", "Every June, Kazanlak crowns a Rose Queen and celebrates the harvest with parades, folk dancing and rose-picking rituals."]
+      ["Казанлък и Карлово", "Долината между Стара планина и Средна гора отглежда Rosa damascena от XVII век."],
+      ["Течно злато", "Нужни са около 3000 кг розов цвят за един килограм розово масло, което грам за грам струва повече от златото."],
+      ["Бране на ръка призори", "Цветът се бере между 5 и 10 сутринта, преди слънцето да изпари етеричните масла."],
+      ["Празникът на розата", "Всеки юни Казанлък избира Царица Роза и празнува реколтата с шествия, хора и ритуали по розобер."]
     ]
   },
   {
     slug: "language",
-    name: "Language & Cyrillic",
-    lead: "The Cyrillic alphabet was born here and travelled the world.",
+    name: "Език и кирилица",
+    lead: "Кирилицата е родена тук и е тръгнала по света.",
     cards: [
-      ["Cyrillic's birthplace", "The alphabet was developed in the Preslav Literary School in the 9th century, based on the Glagolitic script of Saints Cyril and Methodius."],
-      ["An official EU alphabet", "When Bulgaria joined the EU in 2007, Cyrillic became the third official alphabet of the Union alongside Latin and Greek."],
-      ["First Slavic literary language", "Old Bulgarian (Old Church Slavonic) was the literary language of much of the Slavic world for centuries."],
-      ["24 May", "The Day of Bulgarian Enlightenment and Culture and of Slavonic Literature is the country's most beloved holiday."]
+      ["Родното място на кирилицата", "Азбуката е създадена в Преславската книжовна школа през IX век на основата на глаголицата на светите Кирил и Методий."],
+      ["Официална азбука на ЕС", "С приемането на България в ЕС през 2007 г. кирилицата става третата официална азбука на Съюза след латиницата и гръцката."],
+      ["Първи славянски книжовен език", "Старобългарският е книжовен език на голяма част от славянския свят в продължение на векове."],
+      ["24 май", "Денят на българската просвета и култура и на славянската писменост е най-обичаният празник в страната."]
     ]
   },
   {
     slug: "music",
-    name: "Music & Folklore",
-    lead: "Voices that were sent into interstellar space.",
+    name: "Музика и фолклор",
+    lead: "Гласове, изпратени в междузвездното пространство.",
     cards: [
-      ["A song aboard Voyager", "The folk song 'Izlel e Delyo Haydutin', sung by Valya Balkanska, is on the Golden Record carried by NASA's Voyager spacecraft."],
-      ["Le Mystère des Voix Bulgares", "The Grammy-winning women's choir made Bulgaria's open-throated diaphonic singing famous worldwide."],
-      ["Impossible rhythms", "Folk dances use uneven metres like 7/8, 11/16 and 13/16 that sound almost unplayable to outsiders."],
-      ["The gaida", "The Rhodope bagpipe, or kaba gaida, has a deep drone that carries across whole mountain valleys."]
+      ["Песен на борда на „Вояджър“", "Народната песен „Излел е Дельо хайдутин“ в изпълнение на Валя Балканска е на златната плоча на сондата „Вояджър“ на НАСА."],
+      ["Мистерията на българските гласове", "Носителят на „Грами“ женски хор прослави българското двугласно пеене по цял свят."],
+      ["Невъзможни ритми", "Народните хора се играят в неравноделни размери като 7/8, 11/16 и 13/16, които звучат почти неизпълними за чужденци."],
+      ["Гайдата", "Родопската каба гайда има дълбок звук, който се носи над цели планински долини."]
     ]
   },
   {
     slug: "unesco",
-    name: "UNESCO Sites",
-    lead: "Ten World Heritage Sites, from Thracian tombs to painted monasteries.",
+    name: "Обекти на ЮНЕСКО",
+    lead: "Десет обекта на световното наследство — от тракийски гробници до стенописи.",
     cards: [
-      ["Rila Monastery", "Founded in the 10th century, rebuilt in the 19th, and covered in vivid frescoes — the spiritual heart of the country."],
-      ["Boyana Church", "Its 1259 frescoes are considered a forerunner of the European Renaissance."],
-      ["Thracian tombs", "The tombs of Kazanlak and Sveshtari preserve extraordinary Hellenistic-era murals and caryatids."],
-      ["Ancient Nessebar", "A rocky peninsula town on the Black Sea packed with Byzantine churches and wooden Revival houses."]
+      ["Рилският манастир", "Основан през X век, преустроен през XIX и покрит с ярки стенописи — духовното сърце на страната."],
+      ["Боянската църква", "Стенописите ѝ от 1259 г. се смятат за предвестник на европейския Ренесанс."],
+      ["Тракийски гробници", "Гробниците край Казанлък и Свещари пазят изключителни елинистични стенописи и кариатиди."],
+      ["Старият Несебър", "Скалист полуостров на Черно море, изпълнен с византийски църкви и възрожденски дървени къщи."]
     ]
   },
   {
     slug: "nature",
-    name: "Nature & Wildlife",
-    lead: "One of Europe's richest countries for biodiversity.",
+    name: "Природа и дива природа",
+    lead: "Една от най-богатите на биоразнообразие страни в Европа.",
     cards: [
-      ["Three national parks", "Rila, Pirin and Central Balkan protect glacial lakes, ancient forests and some of Europe's largest wild areas."],
-      ["The Seven Rila Lakes", "A cascade of glacial lakes with names like The Tear, The Eye and The Kidney, sitting above 2,000 m."],
-      ["Brown bears and wolves", "Bulgaria still shelters healthy populations of brown bears, wolves, jackals and over 400 bird species."],
-      ["Baikushev's Pine", "A Bosnian pine in Pirin estimated to be more than 1,300 years old — as old as the Bulgarian state itself."]
+      ["Три национални парка", "Рила, Пирин и Централен Балкан пазят ледникови езера, вековни гори и едни от най-дивите места в Европа."],
+      ["Седемте рилски езера", "Каскада от ледникови езера с имена като Сълзата, Окото и Бъбрека, разположени над 2000 м."],
+      ["Мечки и вълци", "България все още е дом на кафяви мечки, вълци, чакали и над 400 вида птици."],
+      ["Байкушевата мура", "Дърво в Пирин на възраст над 1300 години — колкото самата българска държава."]
     ]
   },
   {
     slug: "sports",
-    name: "Sports",
-    lead: "Weightlifting, wrestling, volleyball and one unforgettable summer.",
+    name: "Спорт",
+    lead: "Вдигане на тежести, борба, волейбол и едно незабравимо лято.",
     cards: [
-      ["USA '94", "The national football team beat Germany and reached the World Cup semi-finals, with Hristo Stoichkov sharing the Golden Boot."],
-      ["Stoichkov's Ballon d'Or", "Hristo Stoichkov won the 1994 Ballon d'Or and is still the country's most celebrated athlete."],
-      ["Weightlifting powerhouse", "Bulgarian weightlifters and their famous training method dominated world podiums through the 1970s and 80s."],
-      ["Rhythmic gymnastics", "The 'Golden Girls' have collected world and Olympic titles for decades, making the sport a national obsession."]
+      ["САЩ '94", "Националният отбор по футбол побеждава Германия и стига до полуфинал на Световното първенство, а Христо Стоичков си поделя „Златната обувка“."],
+      ["„Златната топка“ на Стоичков", "Христо Стоичков печели „Златната топка“ през 1994 г. и остава най-прославеният български спортист."],
+      ["Сила на щангата", "Българските щангисти и прочутата им методика на подготовка доминират световните подиуми през 70-те и 80-те години."],
+      ["Художествена гимнастика", "„Златните момичета“ трупат световни и олимпийски титли десетилетия наред и превръщат спорта в национална страст."]
     ]
   },
   {
     slug: "famous-bulgarians",
-    name: "Famous Bulgarians",
-    lead: "Artists, scientists and thinkers with global reach.",
+    name: "Известни българи",
+    lead: "Творци, учени и мислители със световна известност.",
     cards: [
-      ["Christo and Jeanne-Claude", "Christo Yavashev, born in Gabrovo, wrapped the Reichstag and the Pont Neuf and floated piers across Lake Iseo."],
-      ["John Atanasoff", "The son of a Bulgarian immigrant, he built the first electronic digital computer, the ABC, at Iowa State."],
-      ["Elias Canetti", "Born in Ruse, he won the 1981 Nobel Prize in Literature."],
-      ["Baba Vanga", "The blind mystic from Petrich remains one of the country's most talked-about modern figures."]
+      ["Кристо и Жан-Клод", "Христо Явашев, роден в Габрово, опакова Райхстага и Пон Ньоф и създава плаващи кейове по езерото Изео."],
+      ["Джон Атанасов", "Син на български емигрант, той създава първия електронен цифров компютър ABC в университета на Айова."],
+      ["Елиас Канети", "Роден в Русе, той печели Нобеловата награда за литература през 1981 г."],
+      ["Баба Ванга", "Сляпата пророчица от Петрич остава една от най-обсъжданите съвременни фигури в страната."]
     ]
   },
   {
     slug: "cities",
-    name: "Cities",
-    lead: "From an 8,000-year-old town to a capital under a mountain.",
+    name: "Градове",
+    lead: "От 8000-годишен град до столица в подножието на планина.",
     cards: [
-      ["Sofia", "The capital grew around mineral springs and sits at the foot of Vitosha mountain; its motto is 'It grows but does not age'."],
-      ["Plovdiv", "One of the oldest continuously inhabited cities in Europe, with a Roman theatre still hosting concerts. European Capital of Culture in 2019."],
-      ["Veliko Tarnovo", "The medieval capital, built on three hills above the Yantra river around the Tsarevets fortress."],
-      ["Varna and Burgas", "The Black Sea capitals — Varna holds the oldest processed gold treasure in the world, dated to around 4,500 BC."]
+      ["София", "Столицата израства около минералните извори в подножието на Витоша, а девизът ѝ е „Расте, но не старее“."],
+      ["Пловдив", "Един от най-старите непрекъснато обитавани градове в Европа, с античен театър, в който още има концерти. Европейска столица на културата през 2019 г."],
+      ["Велико Търново", "Средновековната столица, разположена на три хълма над река Янтра около крепостта Царевец."],
+      ["Варна и Бургас", "Морските столици — във Варна се пази най-старото обработено злато в света, датирано около 4500 г. пр.н.е."]
     ]
   }
 ];
 
 var HOME_FACTS = [
-  "Bulgaria was founded in 681 AD and is the only country in Europe that has never changed its name.",
-  "Its Rose Valley produces a large share of the world's rose oil, distilled from petals picked by hand at dawn.",
-  "The Cyrillic alphabet, used today by hundreds of millions of people, was created here in the 9th century."
+  "България е основана през 681 г. и е единствената страна в Европа, която никога не е променяла името си.",
+  "Розовата долина дава голяма част от световното розово масло, дестилирано от цвят, брана на ръка призори.",
+  "Кирилицата, използвана днес от стотици милиони хора, е създадена тук през IX век."
 ];
