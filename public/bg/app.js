@@ -15,8 +15,8 @@
     if (TOPICS[i].slug === slug) topic = TOPICS[i];
   }
 
-  var heading = topic ? topic.name : "Bulgaria";
-  document.title = topic ? topic.name + " | Bulgaria — Facts" : "Bulgaria — Facts & Curiosities";
+  var heading = topic ? topic.name : "България";
+  document.title = topic ? topic.name + " | България — факти" : "България — факти и любопитни неща";
 
   /* Header */
   var header = document.querySelector(".site-header");
@@ -26,7 +26,7 @@
     logo.setAttribute("aria-hidden", "true");
     var box = el("div");
     box.appendChild(el("h1", null, heading));
-    box.appendChild(el("p", "tagline", "Facts about Bulgaria"));
+    box.appendChild(el("p", "tagline", "Факти за България"));
     inner.appendChild(logo);
     inner.appendChild(box);
     header.appendChild(inner);
@@ -35,7 +35,7 @@
   /* Menu */
   var menu = document.querySelector(".menu");
   if (menu) {
-    menu.appendChild(el("h2", null, "Topics"));
+    menu.appendChild(el("h2", null, "Теми"));
     var list = el("ul");
     TOPICS.forEach(function (t) {
       var li = el("li");
@@ -64,7 +64,7 @@
       main.appendChild(cards);
     } else {
       var intro = el("section", "intro");
-      intro.appendChild(el("h2", null, "Three things worth knowing"));
+      intro.appendChild(el("h2", null, "Три неща, които си струва да знаете"));
       var ul = el("ul", "facts");
       HOME_FACTS.forEach(function (f) {
         ul.appendChild(el("li", null, f));
