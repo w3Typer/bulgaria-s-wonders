@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>България — факти</title>
+  <title>България — факти и любопитни неща</title>
   <meta name="description" content="Любопитни факти за България: история, култура, кухня, Розовата долина и още." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,13 +11,38 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body data-page="home">
-  <header class="site-header"></header>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo" aria-hidden="true">БГ</div>
+      <div>
+        <h1>България</h1>
+        <p class="tagline">Факти за България</p>
+      </div>
+    </div>
+  </header>
   <div class="layout">
-    <nav class="menu" aria-label="Теми"></nav>
-    <main class="main"></main>
+    <nav class="menu" aria-label="Теми">
+      <h2>Теми</h2>
+      <ul><li><a href="history.html">История</a></li><li><a href="geography.html">География</a></li><li><a href="culture.html">Култура и традиции</a></li><li><a href="cuisine.html">Кухня</a></li><li><a href="rose-valley.html">Розовата долина</a></li><li><a href="language.html">Език и кирилица</a></li><li><a href="music.html">Музика и фолклор</a></li><li><a href="unesco.html">Обекти на ЮНЕСКО</a></li><li><a href="nature.html">Природа и дива природа</a></li><li><a href="sports.html">Спорт</a></li><li><a href="famous-bulgarians.html">Известни българи</a></li><li><a href="cities.html">Градове</a></li></ul>
+    </nav>
+    <main class="main">
+      <section class="intro">
+        <h2>Три неща, които си струва да знаете</h2>
+        <ul class="facts">
+          <li>България е основана през 681 г. и е единствената страна в Европа, която никога не е променяла името си.</li>
+          <li>Розовата долина дава голяма част от световното розово масло, дестилирано от цвят, брана на ръка призори.</li>
+          <li>Кирилицата, използвана днес от стотици милиони хора, е създадена тук през IX век.</li>
+        </ul>
+      </section>
+      <div class="cards">
+        <article class="card"><h3>История</h3><p>Основана през 681 г., България е една от най-старите държави в Европа.</p></article>
+        <article class="card"><h3>География</h3><p>Планини, равнини, голяма река и 378 км черноморска брегова ивица.</p></article>
+        <article class="card"><h3>Култура и традиции</h3><p>Мартеници, нестинарство и кимане, което означава „не“.</p></article>
+      </div>
+    </main>
   </div>
-  <footer class="site-footer"></footer>
-  <script src="data.js"></script>
-  <script src="app.js"></script>
+  <footer class="site-footer">
+    <p>© 2026 | OneDev | All Rights Reserved</p>
+  </footer>
 </body>
 </html>

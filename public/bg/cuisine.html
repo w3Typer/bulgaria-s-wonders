@@ -11,13 +11,33 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body data-page="cuisine">
-  <header class="site-header"></header>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo" aria-hidden="true">БГ</div>
+      <div>
+        <h1>Кухня</h1>
+        <p class="tagline">Факти за България</p>
+      </div>
+    </div>
+  </header>
   <div class="layout">
-    <nav class="menu" aria-label="Теми"></nav>
-    <main class="main"></main>
+    <nav class="menu" aria-label="Теми">
+      <h2>Теми</h2>
+      <ul><li><a href="history.html">История</a></li><li><a href="geography.html">География</a></li><li><a href="culture.html">Култура и традиции</a></li><li><a href="cuisine.html" aria-current="page">Кухня</a></li><li><a href="rose-valley.html">Розовата долина</a></li><li><a href="language.html">Език и кирилица</a></li><li><a href="music.html">Музика и фолклор</a></li><li><a href="unesco.html">Обекти на ЮНЕСКО</a></li><li><a href="nature.html">Природа и дива природа</a></li><li><a href="sports.html">Спорт</a></li><li><a href="famous-bulgarians.html">Известни българи</a></li><li><a href="cities.html">Градове</a></li></ul>
+    </nav>
+    <main class="main">
+      <h2 class="page-title">Кухня</h2>
+      <p class="page-lead">Кисело мляко, баница, шопска салата и истинска любов към подправките.</p>
+      <div class="cards">
+        <article class="card"><h3>Българско кисело мляко</h3><p>Lactobacillus bulgaricus — бактерията зад истинското българско кисело мляко — носи името на страната и се среща естествено само тук.</p></article>
+        <article class="card"><h3>Шопска салата</h3><p>Домати, краставици, чушки, лук и настъргано сирене — цветовете на националното знаме в чиния.</p></article>
+        <article class="card"><h3>Баница</h3><p>Точени кори с яйца и сирене, печени за закуска, за празници и за новогодишни късмети.</p></article>
+        <article class="card"><h3>Ракия и лютеница</h3><p>Плодова ракия със салата и бавно готвена лютеница от чушки и домати, която много семейства още правят вкъщи всяка есен.</p></article>
+      </div>
+    </main>
   </div>
-  <footer class="site-footer"></footer>
-  <script src="data.js"></script>
-  <script src="app.js"></script>
+  <footer class="site-footer">
+    <p>© 2026 | OneDev | All Rights Reserved</p>
+  </footer>
 </body>
 </html>
