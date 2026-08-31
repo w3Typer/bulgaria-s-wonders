@@ -36,9 +36,10 @@ body {
   background: linear-gradient(135deg, var(--rose-deep), var(--rose));
   color: var(--paper);
   position: relative;
+  border-bottom: 6px solid var(--green);
 }
 
-.site-header::after {
+/*.site-header::after {
   content: "";
   display: block;
   height: 10px;
@@ -49,7 +50,7 @@ body {
     var(--rose) 16px 24px
   );
   opacity: 0.9;
-}
+}*/
 
 .header-inner {
   max-width: 1180px;
