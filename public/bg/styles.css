@@ -195,7 +195,7 @@ body {
   font-size: 1.05rem;
 }
 
-.facts li::before {
+.facts > li::before {
   content: "❀";
   position: absolute;
   left: 0;
@@ -205,8 +205,8 @@ body {
   color: var(--rose);
 }
 
-.facts li:nth-child(2)::before { content: "✥"; color: var(--green); }
-.facts li:nth-child(3)::before { content: "❈"; color: var(--gold); }
+.facts > li:nth-child(2)::before { content: "✥"; color: var(--green); }
+.facts > li:nth-child(3)::before { content: "❈"; color: var(--gold); }
 
 /* ---------- Cards ---------- */
 .cards {
