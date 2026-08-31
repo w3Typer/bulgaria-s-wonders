@@ -208,7 +208,7 @@ body {
 .facts > li:nth-child(2)::before { content: "✥"; color: var(--green); }
 .facts > li:nth-child(3)::before { content: "❈"; color: var(--gold); }
 
-.sub-list {
+.sub-list li {
   position: relative;
   padding-left: 1.3rem;
   font-size: 1.05rem;
