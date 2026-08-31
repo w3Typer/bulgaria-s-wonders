@@ -43,7 +43,7 @@ body {
   display: block;
   height: 10px;
   background-image: repeating-linear-gradient(
-    45deg,
+    135deg,
     #ffffff 0 8px,
     var(--green) 8px 16px,
     var(--rose) 16px 24px
