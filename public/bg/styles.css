@@ -189,7 +189,7 @@ body {
   gap: 0.9rem;
 }
 
-.facts li {
+.facts > li {
   position: relative;
   padding-left: 2.4rem;
   font-size: 1.05rem;
@@ -207,6 +207,12 @@ body {
 
 .facts > li:nth-child(2)::before { content: "✥"; color: var(--green); }
 .facts > li:nth-child(3)::before { content: "❈"; color: var(--gold); }
+
+.sub-list {
+  position: relative;
+  padding-left: 1.3rem;
+  font-size: 1.05rem;
+}
 
 /* ---------- Cards ---------- */
 .cards {
